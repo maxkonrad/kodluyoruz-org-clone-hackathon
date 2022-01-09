@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <title>Kodluyoruz</title>
+    <!-- INITIALIZE CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- INITIALIZE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="https://kodluyoruz.org">
+                    <img src="/assets/logo.png" alt="Kodluyoruz Logosu">
+                </a>
+            </div>
+            <ul class="navbar-nav-center">
+                <li>
+                    <a href="kodla-donusturelim.html">Kodla Dönüştürelim</a>
+                </li>
+                <li>
+                    <a href="hi-kod.html">Hi-Kod</a>
+                </li>
+                <li>
+                    <a href="bootcamp.html">Bootcamp</a>
+                </li>
+                <li>
+                    <a href="community.html">Topluluk</a>
+                </li>
+                <li>
+                    <a href="cs50.html">CS50x</a>
+                </li>
+                <li>
+                    <a href="kodluyoruz-junior.html">Kodluyoruz Jr.</a>
+                </li>
+                <li>
+                    <a href="for-companies.html">Şirketler</a>
+                </li>
+                <li>
+                    <a href="about.html">Hakkımızda</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav-right">
+                <li>
+                    <button class="button-small"><a class="text-light" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Destekle </a></button>
+                </li>
+                <li>
+                    <select class="lang-dropdown" name="language">
+                        <option value="TR">TR</option>
+                        <option value="ENG">ENG</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="flex-container-mobile">
+                <div class="icon">
+                    <a href="https://www.kodluyoruz.org/%22%3E>
+                        <img class="kodluyoruz-image" src="/assets/logo.png">
+                    </a>
+                </div>
+        
+                <div class="hamburger-menu">
+                    <a href="javascript:void(0);" onclick="dorpdownMenuFunction()">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+        
+            </div>
+        </div>
+        <div id="myNav">
+            <div class="container">
+                <hr class="line">
+                <ul class="navs">
+                    <li><a class="nav-li" href="#">Kodla Dönüştürelim</a></li>
+                    <li><a class="nav-li" href="#">Hi-Kod</a></li>
+                    <li><a class="nav-li" href="#">Bootcamp</a></li>
+                    <li><a class="nav-li" href="#">Topluluk</a></li>
+                    <li><a class="nav-li" href="#">CS50x</a></li>
+                    <li><a class="nav-li" href="#">Kodluyoruz Jr.</a></li>
+                    <li><a class="nav-li" href="#">Şirketler</a></li>
+                    <li><a class="nav-li" href="#">Hakkımızda</a></li>
+                    <hr class="line">
+                    <div class="hamburger-menu-last-items">
+                        <li>
+                            <button class="button-small">Destekle</button>
+                        </li>
+                        <li>
+                            <a href="">TR</a>
+                            |
+                            <a class="en-tag" href="">EN</a>
+                        </li>
+                    </div>
+                </ul>
+                <br>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+    <!-- SITE CONTENT -->
+    <!-- BACKGROUND IMAGE -->
+    <section class="main-banner">
+        <div class="banner-text-container">
+            <header class="banner-header">
+                Hayalindeki yazılım kariyerine ilk adımı at
+            </header>
+            
+            <p class="banner-text">
+                Türkiye'yi teknolojide bir yetenek merkezi yapmak için gençlere ihtiyaçları olan eğitimi sağlıyoruz.
+            </p>
+    
+            <button class="banner-button shadow">
+                BAŞVUR
+            </button>
+        </div>
+    </section>
+    <!-- BACKGROUND IMAGE -->
+
+    <!-- CONTENT SECTION -->
+    <section class="cards-section">
+        <header class="main-card-text">
+            Kodluyoruz Nasıl Çalışır?
+        </header>
+        <ul class="cards">
+            <li class="card">
+                <div class="card-image-container">
+                    <img src="/assets/card-3.webp" alt="" class="card-image">
+                </div>
+                <p class="card-image-header">
+                    Becerilerini  Geliştir
+                </p>
+                <p class="card-image-text">
+                    Ücretsiz bootcamp'lere katıl ve dünya çapındaki kaynaklarla becerilerini geliştir
+                </p>
+                <button class="card-button">
+                    Başvur
+                </button>
+            </li>
+            <li class="card">
+                <div class="card-image-container">
+                    <img src="/assets/card-1.webp" alt="" class="card-image">
+                </div>
+                <p class="card-image-header">
+                    Mezunlar Kulübü'ne Katıl
+                </p>
+                <p class="card-image-text">
+                    Bootcamp'lerden başarıyla mezun ol, diğer mezunlarla hayat boyu öğrenmek için bir araya gel
+                </p>
+                <button class="card-button">
+                    Kulüp Hakkında
+                </button>
+            </li>
+            <li class="card">
+                <div class="card-image-container">
+                    <img src="/assets/card-2.webp" alt="" class="card-image">
+                </div>
+                <p class="card-image-header">
+                    Şirketlerle Buluş
+                </p>
+                <p class="card-image-text">
+                    Hayalindeki kariyere adım atmak isteyen mezunlarımız için sağladığımız desteklerden yararlan
+                </p>
+                <button class="card-button">
+                    Şirketlerle Çalışmalarımız
+                </button>
+            </li>
+        </ul>
+    </section>
+    <!-- CONTENT SECTION -->
+
+    <!-- GAP -->
+    <section class="gap-container first-gap">
+        <header class="gap-header">
+            Açık kaynaklarımız burada!
+        </header>
+        <p class="gap-text">
+            Israrlara dayanamadık, iyi bir teknoloji kariyerine hazırlanmak isteyenler için ücretsiz ve online kaynaklar oluşturduk. Patikalarımızda sizleri bekliyoruz!
+        </p>
+        <button class="button-small gap-button">
+            Patike.dev'de Bootcamp'lere Hazırlan
+        </button>
+    </section>
+    <!-- GAP -->
+    <!-- GAP -->
+    <section class="gap-container second-gap">
+        <header class="gap-header second-gap-header">
+            Eşitlik
+        </header>
+        <p class="gap-text second-gap-text">
+            Potansiyeli yüksek ve sosyoekonomik ihtiyacı olan gençlere ücretsiz eğitim sağlıyoruz
+        </p>
+        <ul class="percentage-table-container shadow-lg">
+            <li class="percentage-item px-3 my-2">
+                <header class="percentage-number">
+                %80
+                </header>
+                <p class="percentage-text">
+                    Bootcamp'lerden ortalama mezuniyet oranı
+                </p>
+            </li>
+            <li class="percentage-item percentage-border px-3 my-2">
+                <header class="percentage-number">
+                %45
+                </header>
+                <p class="percentage-text">
+                    Kadın öğrenci oranımız - Eşitliği destekliyoruz!
+                </p>
+            </li>
+            <li class="percentage-item px-3 my-2">
+                <header class="percentage-number">
+                %60
+                </header>
+                <p class="percentage-text">
+                    Mezun olduktan sonra 3 ay içinde işe yerleşme oranı
+                </p>
+            </li>
+        </ul>
+    </section>
+    <!-- GAP -->
+    <!-- GAP -->
+    <section class="gap-container third-gap">
+        <header class="gap-header my-3">
+            Kodluyoruz'la Hayatı Değişenler
+        </header>
+        <div class="videos-container my-4">
+            <iframe class="video-scale" width="504" height="300" src="https://www.youtube.com/embed/2gZ-lx3oI5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-scale" width="504" height="300" src="https://www.youtube.com/embed/9UlvqXwUti8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!-- GAP -->
+    <!-- Kodluyoruz Alchemist Podcast -->
+    <!-- Kodluyoruz Alchemist Podcast -->
+    <div class="kodluyoruz-alchemist-podcast">
+        <div class="container">
+            <div class="title"><center>Kodluyoruz Alchemist Podcast 🎧</center></div>
+            <div class="alchemist-podcast"><center>Alchemist Podcast, teknoloji alanında dünyadaki önemli gelişmeleri ve girişimleri sunan podcast kanalımız! 
+                İlk serimiz, Garanti BBVA sponsorluğunda yapay zeka alanındaki gelişmeleri Kodluyoruz <a class="alchemist-podcast-text-link" href="#">Yapay Zeka Danışma Kurulu</a> 
+                üyeleri gözünden aktardığımız seri.</center>
+            </div>
+            <div class="listen">
+                <center>
+                    <a class="listen-button shadow" href="#">Hemen Dinleyin</a>
+                </center>
+            </div>
+            
+        </div>
+    </div>
+    <!-- SITE CONTENT -->
+    <div class="background">
+        <p class="footer-text">Kodluyoruz, Türkiye'yi teknoloji alanında dünya çapında bir merkez yapmaya çalışan bir sosyal girişimdir.</p>
+    </div>
+    <!-- FOOTER -->
+    <footer class="bg-white text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 footer-sections col-xl-3 mx-auto mt-3">
+                  <ul class="no-bullets">
+                    <li><h6 class=" footertitle text-uppercase mb-2 font-weight-bold ">Menü</h6></li>
+                    <li ><a class="footertext" href="/kodla-donusturelim.html" target="_blank">Kodla Dönüştürelim</a></li>
+                    <li><a class="footertext" href="/hi-kod.html" target="_blank">Hi-Kod</a></li>
+                    <li><a class="footertext" href="/bootcamp.html" target="_blank">Bootcamp</a></li>
+                    <li><a class="footertext" href="/community.html" target="_blank">Topluluk</a></li>
+                    <li><a class="footertext" href="/cs50.html" target="_blank">CS50X</a></li>
+                    <li><a class="footertext" href="kodluyoruz-junior.html" target="_blank">Kodluyoruz Jr.</a></li>
+                    <li><a class="footertext" href="/for-companies.html" target="_blank">Şirketler</a></li>
+                    <li><a class="footertext" href="/about.html" target="_blank">Hakkımızda</a></li>
+                  </ul>
+              </div>
+    
+              <div class="col-md-2 col-lg-2 col-xl-3 footer-sections mx-auto mt-3">
+                <ul class="no-bullets">
+                  <li><h6 class=" footertitle text-uppercase mb-2 font-weight-bold ">Beceri Geliştir
+                  </h6></li>
+                  <li><a class="footertext" href="https://www.kodluyoruz.org/resources" target="_blank">Kaynaklar</a></li>
+                  <li><a class="footertext" href="for-companies.html" target="_blank">Şirketler</a></li>
+                  <li><a class="footertext" href="https://www.kodluyoruz.org/ai-strategy" target="_blank">AI Stratejisi</a></li>
+                  <li><a class="footertext" href="https://www.kodluyoruz.org/bootcamp/admission" target="_blank">Seçim Süreci</a></li>
+                </ul>
+              </div>
+    
+              <!-- Sağ sütun -->
+              <div class="col-md-2 col-lg-2 col-xl-3 footer-sections mt-3">
+                <ul class="no-bullets">
+                  <li><h6 class=" footertitle text-uppercase mb-2 font-weight-bold ">Hakkında
+                  </h6></li>
+                  <li><a class="footertext" href="about.html" target="_blank">Hakkımızda</a></li>
+                  <li><a class="footertext" href="https://discord.gg/GcyEeccm" target="_blank">Bize Katıl!</a></li>
+                  <li><a class="footertext" href="https://www.kodluyoruz.org/news" target="_blank">Haberler</a></li>
+                  <li><a class="footertext" href="https://www.kodluyoruz.org/donate" target="_blank">Destekle</a></li>
+                  <li><a class="footertext" href="faq.html" target="_blank">SSS</a></li>
+                  <li><a class="footertext" href="contact.html" target="_blank">İletişim</a></li>
+                  <li><a class="footertext" href="kolay-erisim.html" target="_blank">Kolay Erişim</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <a href="https://kodluyoruz.org">
+                    <img class="footer-logo" src="https://res.cloudinary.com/danielkapper-com/image/upload/v1577156572/logo-one.png" alt="Kodluyoruz-logo">
+                </a>
+            </div>
+            
+            <hr class="mb-4">
+  
+            <div class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
+              <div>
+                <div class="copyrigth-message footer-text-container">
+                    <ul class="footer-links-container">
+                        <li>
+                        <span class="copyright-message-start footer-message">© 2020 Kodluyoruz</span> <a href="#" class="policy footer-link footer-message">Çerez Politikası</a>, <a href="#" class="footer-message footer-link personal-rights">Kişisel Veriler Korunması Başvuru Formu</a>
+                        </li>
+                        <li>
+                        <div class="social-media-links">
+                            <i class="fab icon-scale fa-facebook"></i>
+                            <i class="fab icon-scale fa-instagram"></i>
+                            <i class="fab icon-scale fa-twitter"></i>
+                            <i class="fab icon-scale fa-linkedin-in"></i>
+                            <i class="fab icon-scale fa-medium-m"></i>
+                            <i class="fab icon-scale fa-youtube"></i>
+                            <i class="fab icon-scale fa-discord"></i>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div> 
+      </footer>
+    <!-- FOOTER -->
+      <script src="script.js"></script>i
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/c5b035d3ce.js" crossorigin="anonymous"></script>
+
+     <script>
+         feather.replace()
+     </script>
+ 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     
+</body>
+</html>
